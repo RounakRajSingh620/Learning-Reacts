@@ -8,11 +8,11 @@ const Header = ({title}) => {
     )
 }
 Header.defaultProps={
-    title: 'Task Tracker'
+    title: 'Task Tracker site'
 }
 Header.PropTypes={
     title: PropTypes.string.isRequired,
 }
-}
+
 
 export default Header
