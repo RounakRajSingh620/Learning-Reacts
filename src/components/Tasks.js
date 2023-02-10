@@ -33,8 +33,8 @@ const Tasks = () => {
 const tasks = () => {
     return (
         <>
-            {Tasks.map((task) => (
-                <h3 key={task.id}>{task.Text}</h3>
+            {tasks.map((tasks) => (
+                <h3 key={tasks.id}>{tasks.Text}</h3>
             ))}
         </>
     )
